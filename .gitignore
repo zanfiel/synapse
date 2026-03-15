@@ -1,0 +1,31 @@
+# Binaries
+/synapse
+/synapse.exe
+/synapse-public.exe
+/synapse-linux
+/synapse-new
+/synapse_win.exe
+/synapse_windows.exe
+synapse-test.exe
+*.exe~
+
+# Backups
+*.bak*
+
+# Personal build files (not for distribution)
+internal/provider/claudecli.go
+internal/copilot/
+internal/provider/copilot.go
+cmd/synapse/providers_personal.go
+internal/config/auth_personal.go
+AGENTS.md
+
+# Config & data
+.synapse/
+data/
+*.bak
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
